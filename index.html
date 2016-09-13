@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+    	<meta charset="utf-8" />
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <meta name="description" content="Ungvar" />
+        <meta name="keywords" content="enter keywords" />
+        <meta name="author" content="" />
+
+        <title>Ungvar</title>
+        <!--CSS Links-->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"></link>
+        <link rel="stylesheet" type="text/css" href="css/oldviewer.css" />
+        <link rel="stylesheet" type="text/css" href="css/default.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+        <!--SCRIPTS-->
+        <!--script for jquery expanding grid and modal windows-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!--map scripts-->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="js/map.js"></script>
+
+        
+    </head>
+
+    <body>
+
+        
+    	<!-- The element that will contain our Google Map. This is used in both the Javascript and CSS above. -->
+        <div id="map"></div>
+
+        
+<!--MOST INTERESTING PHOTOS // Enter google docs form link here-->
+            <div class="header streetview-hide">
+            <div class="logo">
+                <div class="wrapper">
+                    <a href="index.html">Ungwar</a>
+                    <div class="slogan">Mapping historical<br>photos from Užhorod</div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Feedback // Enter google docs form link here-->
+        <div id="feedback">
+            <a href="#" target="_blank">Send feedback</a>
+        </div>
+
+        <div id="popular1">
+            <h2>Most Interesting Photos</h2>
+            <div class="popclose">
+                <a href="javascript:void(0)" class="show_hide">✕</a>
+            </div>
+        </div>
+
+        <div id = "popular">    
+            <div class = "slidingPop">
+            
+                <div class="popular-photo">
+                    <a href="poppages/dialog.html" class="modal"><img class="popular-image" src="images/thumbs/1.jpg" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+                
+                <div class="popular-photo">
+                    <a href="poppages/dialog1.html" class="modal"><img class="popular-image" src="images/thumbs/2.jpg" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+                
+                <div class="popular-photo">
+                    <a href="poppages/dialog2.html" class="modal"><img class="popular-image" src="images/thumbs/p009.jpg" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+                
+                <div class="popular-photo">
+                    <a href="poppages/dialog3.html" class="modal"><img class="popular-image" src="images/thumbs/p001.jpg" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+
+                <div class="popular-photo">
+                    <a href="#" class="modal" ><img class="popular-image" src="" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+                
+                <div class="popular-photo">
+                    <a href="#" class="modal" ><img class="popular-image" src="" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+                
+                <div class="popular-photo">
+                    <a href="#" class="modal"><img class="popular-image" src="" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+
+                <div class="popular-photo">
+                    <a href="#" class="modal"><img class="popular-image" src="" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+                
+                <div class="popular-photo">
+                    <a href="#" class="modal"><img class="popular-image" src="" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+                
+                <div class="popular-photo">
+                    <a href="#" class="modal"><img class="popular-image" src="" border="0" height="200" width="200"></a>
+                    <p><span class="desc">name</span><br><span class="loc">street</span><span class="date"> (year)</span></p>
+                </div>
+
+            </div>
+        
+
+        </div>
+
+    <div id="popup">
+        <a href="#" id="close_popup">×</a>
+        <div id="popup_content">
+        </div>
+    </div>
+
+    </body>
+</html>
